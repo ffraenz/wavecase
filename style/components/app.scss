@@ -1,0 +1,102 @@
+
+$app-header-height: 72px;
+
+body {
+  margin-bottom: $app-header-height;
+}
+
+.app {
+  $block: &;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  min-height: calc(100vh - #{$app-header-height});
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 50;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: $app-header-height;
+    background: $c-black;
+  }
+
+  &__content {
+    padding: 96px;
+  }
+
+  &__brand {
+    display: none;
+  }
+
+  &__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: $c-background;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity, visibility;
+    transition-duration: 0.3s;
+
+    #{$block}--loading & {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__btn {
+    display: block;
+    padding: 8px;
+
+    // hide label
+    font-size: 0;
+    color: transparent;
+
+    &::before {
+      // icon
+      content: '';
+      display: block;
+      width: 32px;
+      height: 32px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__btn-font-size::before {
+    background-image: inline-svg('font-size.svg', (g: (fill: $c-white)));
+  }
+
+  &__btn-font-size:hover::before {
+    background-image: inline-svg('font-size.svg', (g: (fill: $c-blue)));
+  }
+
+  &__btn-replay::before {
+    background-image: inline-svg('replay.svg', (g: (fill: $c-white)));
+  }
+
+  &__btn-replay:hover::before {
+    background-image: inline-svg('replay.svg', (g: (fill: $c-blue)));
+  }
+
+  &__btn-clear::before {
+    background-image: inline-svg('delete.svg', (g: (fill: $c-white)));
+  }
+
+  &__btn-clear:hover::before {
+    background-image: inline-svg('delete.svg', (g: (fill: $c-blue)));
+  }
+}

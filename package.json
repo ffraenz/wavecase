@@ -1,0 +1,48 @@
+{
+  "name": "wavecase",
+  "version": "1.0.0",
+  "author": "Fränz Friederes <fraenz@frieder.es>",
+  "description": "Web application for experiencing animated & auditive typefaces.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ffraenz/wavecase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ffraenz/wavecase/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "detect-browser": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-standard": "^10.0.0",
+    "gulp-uglify": "^3.0.0",
+    "normalize-scss": "^7.0.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-stream": "^1.20.0",
+    "sass-inline-svg": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

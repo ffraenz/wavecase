@@ -1,0 +1,23 @@
+
+$breakpoints: (
+  xs: (
+    min: 0,
+    max: 767px,
+    gutter: 16px
+  ),
+  s: (
+    min: 768px,
+    max: 999px,
+    gutter: 32px
+  ),
+  m: (
+    min: 1000px,
+    max: 1399px,
+    gutter: 48px
+  ),
+  l: (
+    min: 1400px,
+    max: null,
+    gutter: 48px
+  )
+);

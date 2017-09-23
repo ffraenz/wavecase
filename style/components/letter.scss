@@ -1,0 +1,49 @@
+
+$letter-horizontal-sprites: 10;
+
+.letter {
+  display: block;
+  position: absolute;
+
+  // default position and size
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+
+  // hide text
+  font-size: 0;
+  color: transparent;
+
+  // magically removes display glitches
+  transform: translate3d(0, 0, 0);
+
+  &__face,
+  &__ghost {
+    // share the size of the letter
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    // spritesheet image
+    background-position: 0 0;
+    background-size: (100% * $letter-horizontal-sprites) auto;
+  }
+
+  &__face {
+    // blue color
+    filter: hue-rotate(218deg) brightness(1.2);
+  }
+
+  &__ghost {
+    opacity: 0.15;
+    filter: hue-rotate(218deg);
+
+    &--hidden,
+    .wavecase--playing & {
+      display: none;
+    }
+  }
+}

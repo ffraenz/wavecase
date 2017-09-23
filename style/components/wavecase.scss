@@ -1,0 +1,55 @@
+
+.wavecase {
+  $block: &;
+  display: block;
+  position: relative;
+  cursor: text;
+
+  &__textarea {
+    position: fixed;
+    top: 50%;
+    left: -50%;
+    opacity: 0;
+  }
+
+  &__cursor {
+    display: block;
+    position: absolute;
+    background: $c-white;
+    transform: translate(0, -50%);
+    width: 5px;
+    margin-left: 5px;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  &--focus:not(&--playing) {
+
+    #{$block}__cursor {
+      visibility: visible;
+      opacity: 1;
+      animation-name: cursor-blinking;
+      animation-iteration-count: infinite;
+      animation-duration: 1s;
+    }
+  }
+}
+
+@keyframes cursor-blinking {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
