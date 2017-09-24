@@ -104,8 +104,8 @@ export default class App extends View {
     // set default text
     this._wavecase.setText(this._text)
     this._wavecase.replay()
-    this._wavecase.pause()
     this._wavecase.focus()
+    this._wavecase.pause()
 
     // bind events
     window.addEventListener('click', this.windowDidClick.bind(this))

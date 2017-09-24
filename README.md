@@ -17,5 +17,5 @@ Audio is played back using the HTML5 audio tag and an audio sprite sheet.
 
 ## Contributors
 
-- [Daniel Zat](http://danielzat.com) – Typeface Design
+- [Daniel Zat](http://danielzat.com) – Idea, Typeface Design
 - [Fränz Friederes](https://fraenz.frieder.es) – Development

@@ -5,6 +5,9 @@ import Letter from './Letter'
 // reset after 5 min inactivity
 const resetCooldown = 5 * 60 * 1000
 
+// there is an mp3 offset occuring
+const weirdMP3IndexOffset = -470 / 52
+
 export default class Wavecase extends Animation {
   constructor (spec) {
     super()
@@ -329,7 +332,7 @@ export default class Wavecase extends Animation {
     })
 
     // set number of total frames
-    this.setFrameCount(frame - this._frameOffsetEnd)
+    this.setFrameCount(frame - this._frameOffsetEnd - this._frameOffsetStart)
   }
 
   renderFrame (frame) {
@@ -356,10 +359,9 @@ export default class Wavecase extends Animation {
       // add the animation time that already passed for this letter
       audioTime += letter.getTime()
 
-      // spaces are weird, they need some extra time and love
-      if (letter.getCharacter() === ' ') {
-        audioTime += -420
-      }
+      // add weird mp3 offset
+      let weirdOffset = weirdMP3IndexOffset * (letter.getIndex() - 1)
+      audioTime += weirdOffset
 
       // seek to the time and hit play
       audioPlayer.currentTime = audioTime / 1000

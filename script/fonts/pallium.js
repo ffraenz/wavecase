@@ -7,7 +7,7 @@ const palliumSpec = {
   letterFrameCount: 72,
   frameOffsetStart: -24,
   frameOffsetEnd: -24,
-  leading: 1,
+  leading: 0.85,
   tracking: 0.02,
   audioUrl: 'pallium.mp3',
   letterAudioDuration: 4000,
@@ -229,10 +229,154 @@ const palliumSpec = {
       spriteUrl: 'spritesheet-036-rm.svg'
     },
     {
+      index: 37,
+      character: 'S',
+      spacing: 0.37,
+      spriteUrl: 'spritesheet-037-s.svg'
+    },
+    {
+      index: 38,
+      character: 's',
+      spacing: 0.23,
+      spriteUrl: 'spritesheet-038-sm.svg'
+    },
+    {
+      index: 39,
+      character: 'T',
+      spacing: 0.31,
+      spriteUrl: 'spritesheet-039-t.svg'
+    },
+    {
+      index: 40,
+      character: 't',
+      spacing: 0.16,
+      spriteUrl: 'spritesheet-040-tm.svg'
+    },
+    {
+      index: 41,
+      character: 'U',
+      spacing: 0.36,
+      spriteUrl: 'spritesheet-041-u.svg'
+    },
+    {
+      index: 42,
+      character: 'u',
+      spacing: 0.25,
+      spriteUrl: 'spritesheet-042-um.svg'
+    },
+    {
+      index: 43,
+      character: 'V',
+      spacing: 0.43,
+      spriteUrl: 'spritesheet-043-v.svg'
+    },
+    {
+      index: 44,
+      character: 'v',
+      spacing: 0.30,
+      spriteUrl: 'spritesheet-044-vm.svg'
+    },
+    {
+      index: 45,
+      character: 'W',
+      spacing: 0.59,
+      spriteUrl: 'spritesheet-045-w.svg'
+    },
+    {
+      index: 46,
+      character: 'w',
+      spacing: 0.45,
+      spriteUrl: 'spritesheet-046-wm.svg'
+    },
+    {
+      index: 47,
+      character: 'X',
+      spacing: 0.38,
+      spriteUrl: 'spritesheet-047-x.svg'
+    },
+    {
+      index: 48,
+      character: 'x',
+      spacing: 0.24,
+      spriteUrl: 'spritesheet-048-xm.svg'
+    },
+    {
+      index: 49,
+      character: 'Y',
+      spacing: 0.31,
+      spriteUrl: 'spritesheet-049-y.svg'
+    },
+    {
+      index: 50,
+      character: 'y',
+      spacing: 0.26,
+      spriteUrl: 'spritesheet-050-ym.svg'
+    },
+    {
+      index: 51,
+      character: 'Z',
+      spacing: 0.38,
+      spriteUrl: 'spritesheet-051-z.svg'
+    },
+    {
+      index: 52,
+      character: 'z',
+      spacing: 0.26,
+      spriteUrl: 'spritesheet-052-zm.svg'
+    },
+    {
       index: 53,
       character: ' ',
       spacing: 0.25,
       spriteUrl: null
+    },
+    {
+      index: 68,
+      character: 'ß',
+      spacing: 0.36,
+      spriteUrl: 'spritesheet-068-sz.svg'
+    },
+    {
+      index: 69,
+      character: 'Ä',
+      spacing: 0.53,
+      spriteUrl: 'spritesheet-069-ae.svg'
+    },
+    {
+      index: 70,
+      character: 'ä',
+      spacing: 0.29,
+      spriteUrl: 'spritesheet-070-aem.svg'
+    },
+    {
+      index: 71,
+      character: 'Ö',
+      spacing: 0.47,
+      spriteUrl: 'spritesheet-071-oe.svg'
+    },
+    {
+      index: 72,
+      character: 'ö',
+      spacing: 0.26,
+      spriteUrl: 'spritesheet-072-oem.svg'
+    },
+    {
+      index: 73,
+      character: 'Ü',
+      spacing: 0.36,
+      spriteUrl: 'spritesheet-073-ue.svg'
+    },
+    {
+      index: 74,
+      character: 'ü',
+      spacing: 0.25,
+      spriteUrl: 'spritesheet-074-uem.svg'
+    },
+    {
+      index: 75,
+      character: '&',
+      spacing: 0.47,
+      spriteUrl: 'spritesheet-075-and.svg'
     }
   ]
 }
