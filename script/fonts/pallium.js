@@ -97,6 +97,138 @@ const palliumSpec = {
       spriteUrl: 'spritesheet-014-gm.svg'
     },
     {
+      index: 15,
+      character: 'H',
+      spacing: 0.51,
+      spriteUrl: 'spritesheet-015-h.svg'
+    },
+    {
+      index: 16,
+      character: 'h',
+      spacing: 0.29,
+      spriteUrl: 'spritesheet-016-hm.svg'
+    },
+    {
+      index: 17,
+      character: 'I',
+      spacing: 0.35,
+      spriteUrl: 'spritesheet-017-i.svg'
+    },
+    {
+      index: 18,
+      character: 'i',
+      spacing: 0.12,
+      spriteUrl: 'spritesheet-018-im.svg'
+    },
+    {
+      index: 19,
+      character: 'J',
+      spacing: 0.35,
+      spriteUrl: 'spritesheet-019-j.svg'
+    },
+    {
+      index: 20,
+      character: 'j',
+      spacing: 0.18,
+      spriteUrl: 'spritesheet-020-jm.svg'
+    },
+    {
+      index: 21,
+      character: 'K',
+      spacing: 0.38,
+      spriteUrl: 'spritesheet-021-k.svg'
+    },
+    {
+      index: 22,
+      character: 'k',
+      spacing: 0.26,
+      spriteUrl: 'spritesheet-022-km.svg'
+    },
+    {
+      index: 23,
+      character: 'L',
+      spacing: 0.38,
+      spriteUrl: 'spritesheet-023-l.svg'
+    },
+    {
+      index: 24,
+      character: 'l',
+      spacing: 0.18,
+      spriteUrl: 'spritesheet-024-lm.svg'
+    },
+    {
+      index: 25,
+      character: 'M',
+      spacing: 0.58,
+      spriteUrl: 'spritesheet-025-m.svg'
+    },
+    {
+      index: 26,
+      character: 'm',
+      spacing: 0.42,
+      spriteUrl: 'spritesheet-026-mm.svg'
+    },
+    {
+      index: 27,
+      character: 'N',
+      spacing: 0.45,
+      spriteUrl: 'spritesheet-027-n.svg'
+    },
+    {
+      index: 28,
+      character: 'n',
+      spacing: 0.28,
+      spriteUrl: 'spritesheet-028-nm.svg'
+    },
+    {
+      index: 29,
+      character: 'O',
+      spacing: 0.47,
+      spriteUrl: 'spritesheet-029-o.svg'
+    },
+    {
+      index: 30,
+      character: 'o',
+      spacing: 0.26,
+      spriteUrl: 'spritesheet-030-om.svg'
+    },
+    {
+      index: 31,
+      character: 'P',
+      spacing: 0.26,
+      spriteUrl: 'spritesheet-031-p.svg'
+    },
+    {
+      index: 32,
+      character: 'p',
+      spacing: 0.24,
+      spriteUrl: 'spritesheet-032-pm.svg'
+    },
+    {
+      index: 33,
+      character: 'Q',
+      spacing: 0.51,
+      spriteUrl: 'spritesheet-033-q.svg'
+    },
+    {
+      index: 34,
+      character: 'q',
+      spacing: 0.28,
+      spriteUrl: 'spritesheet-034-qm.svg'
+    },
+    {
+      index: 35,
+      character: 'R',
+      spacing: 0.34,
+      spriteUrl: 'spritesheet-035-r.svg'
+    },
+    {
+      index: 36,
+      character: 'r',
+      spacing: 0.19,
+      spriteUrl: 'spritesheet-036-rm.svg'
+    },
+    {
       index: 53,
       character: ' ',
       spacing: 0.25,
