@@ -331,6 +331,90 @@ const palliumSpec = {
       spriteUrl: null
     },
     {
+      index: 54,
+      character: '.',
+      spacing: 0.09,
+      spriteUrl: 'spritesheet-054-period.svg'
+    },
+    {
+      index: 55,
+      character: '0',
+      spacing: 0.34,
+      spriteUrl: 'spritesheet-055-0.svg'
+    },
+    {
+      index: 56,
+      character: '1',
+      spacing: 0.27,
+      spriteUrl: 'spritesheet-056-1.svg'
+    },
+    {
+      index: 57,
+      character: '2',
+      spacing: 0.36,
+      spriteUrl: 'spritesheet-057-2.svg'
+    },
+    {
+      index: 58,
+      character: '3',
+      spacing: 0.33,
+      spriteUrl: 'spritesheet-058-3.svg'
+    },
+    {
+      index: 59,
+      character: '4',
+      spacing: 0.36,
+      spriteUrl: 'spritesheet-059-4.svg'
+    },
+    {
+      index: 60,
+      character: '5',
+      spacing: 0.31,
+      spriteUrl: 'spritesheet-060-5.svg'
+    },
+    {
+      index: 61,
+      character: '6',
+      spacing: 0.34,
+      spriteUrl: 'spritesheet-061-6.svg'
+    },
+    {
+      index: 62,
+      character: '7',
+      spacing: 0.38,
+      spriteUrl: 'spritesheet-062-7.svg'
+    },
+    {
+      index: 63,
+      character: '8',
+      spacing: 0.33,
+      spriteUrl: 'spritesheet-063-8.svg'
+    },
+    {
+      index: 64,
+      character: '9',
+      spacing: 0.33,
+      spriteUrl: 'spritesheet-064-9.svg'
+    },
+    {
+      index: 65,
+      character: ',',
+      spacing: 0.09,
+      spriteUrl: 'spritesheet-065-comma.svg'
+    },
+    {
+      index: 66,
+      character: '!',
+      spacing: 0.16,
+      spriteUrl: 'spritesheet-066-exclamation.svg'
+    },
+    {
+      index: 67,
+      character: '?',
+      spacing: 0.37,
+      spriteUrl: 'spritesheet-067-question.svg'
+    },
+    {
       index: 68,
       character: 'ß',
       spacing: 0.36,
